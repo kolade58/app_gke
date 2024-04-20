@@ -3,7 +3,8 @@
 # Declare variables to be passed into your templates.
 
 replicaCount: 1
-
+env:
+  APP_VERSION: 0ff7b42842b5caeab96b5ba67dedfcda6612120c
 image:
   repository: nginx
   pullPolicy: IfNotPresent

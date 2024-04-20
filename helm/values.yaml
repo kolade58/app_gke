@@ -4,7 +4,7 @@
 
 replicaCount: 1
 env:
-  APP_VERSION: 0ff7b42842b5caeab96b5ba67dedfcda6612120c
+  APP_VERSION: cbe6bda6a6f7eefbc10344d82ba61f8ecab0a8c7
 image:
   repository: nginx
   pullPolicy: IfNotPresent
